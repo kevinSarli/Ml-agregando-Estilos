@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    --amarillo: #EAC926;
+    --azul: #03264C;
+    --celeste: #1259c3;
+    --grisOscuro: #666;
+    --grisClaro: #ebebeb;
+    --verde: #39b54a;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+}
+
+/* header */
+header{
+    background-color: var(--amarillo);
+    width: 100%;
+}
+
+header img{
+    width: 39%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+header .search-bar{
+    padding: 2px;
+    margin-left: 20px;
+}
+
+header .search-bar input{
+    width: 60%;
+    margin: 10px auto 2px;
+}
+
+header .search-bar div a{
+    background-color: var(--grisClaro);
+    color: var(--azul);
+    border: solid 1px var(--grisOscuro);
+    border-radius: 3px;
+}
+
+header .search-bar div a i{
+    padding: 1px;
+    font-size: 13px;
+}
+
+header p{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+header .navbar{
+    margin: 20px auto;
+    font-size: 12px;
+}
+
+header .login-bar{
+    margin-bottom: 30px;
+    font-size: 12px;
+}
+
+header .burger-menu{
+    text-align: center;
+}
+
+header .burger-menu i {
+    background-color: var(--celeste);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 14%;
+    padding: 10px;
+}
+
+/* main */
+main{
+    background-color: var(--grisClaro);
+    width: 100%;
+}
+
+main img.banner{
+    display: none;
+}
+
+main section{
+    padding: 10px;
+}
+
+main section h2{
+    margin: 30px auto;
+    font-size: 24px;
+    color: var(--grisOscuro);
+}
+
+main section article .product{
+    width: 93vw;
+    margin: 10px auto;
+}
+
+main section article .price{
+    font-size: 18px;
+    margin: 10px auto;
+}
+
+main section article .off{
+    font-size: 16px;
+    margin: 10px auto;
+}
+
+main section article h4{
+    font-size: 16px;
+    margin: 10px auto;
+}
+
+/* footer */
+footer section article{
+    text-align: center;
+    padding: 0 35px;
+}
+
+footer section article i{
+    margin: 50px auto 10px;
+    font-size: 2em;
+    color: var(--celeste);
+}
+
+footer section article .description{
+    font-size: 12px;
+}
+
+footer .copyright{
+    font-size: 12px;
+    margin: 40px 0 20px 15px;
+}
